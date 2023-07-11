@@ -44,6 +44,7 @@ button:hover{
 /* ===========-- header section design starts from here ---=========== */
 header{
     background-color: #fff0f4;
+    /* background-color: #e02154; */
     max-height: 100vh;
 }
 .section-1{
@@ -52,6 +53,7 @@ header{
     align-items: center;
     justify-content: space-around;
     padding-top: 4.8rem;
+    /* padding-top: 4.85rem; */
     margin: 0 auto;
 }
 .banner{
@@ -149,15 +151,17 @@ span{
     margin: 8rem auto;
 }
 .all-flowers{
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(12rem, 1fr));
-    gap: 2.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
     margin: 3rem auto;
     padding: 0 2.5rem;
     font-size: .8rem;
 }
 .all-flowers div{
+    width: 15rem;
     padding: 0 0 .35rem 0;
+    margin: 0 1rem;
     border-radius: .3rem;
     box-shadow: 3px 3px 3.5px rgb(185, 185, 185);
     transition: ease-in-out .3s;
